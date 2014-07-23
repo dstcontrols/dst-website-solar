@@ -144,7 +144,7 @@ $total = count($box);
 
 
 //$to = 'webmaster@dst-solar.com';
-$to = 'DDusenbury@dstcontrols.com';
+$to = 'energysales@dstcontrols.com';
 //$strFrom = 'webmaster@dst-solar.com';
 $strFrom = '<'. $email .'>'; // $fname . $cname .
 

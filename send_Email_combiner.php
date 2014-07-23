@@ -176,7 +176,7 @@ $message .='<tr>
 
 //$to = 'DDusenbury@dstcontrols.com,Kruble@dstcontrols.com,mariano@etszone.com';
 //$strFrom = 'webmaster@dst-solar.com';
-$to = 'ddusenbury@DSTControls.com';
+$to = 'energysales@dstcontrols.com';
 //$to = 'mariano@etszone.com';
 //$to = 'webmaster@dst-solar.com';
 $strFrom = 'webmaster@dst-solar.com';

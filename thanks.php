@@ -106,7 +106,7 @@
         
         <div id="footer">
         	<p><a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="products.html">Products</a> | <a href="capabilities.html">Capabilities</a> | <a href="faq.html">FAQs</a> | <a href="support.html">Support</a> | <a href="contact.html">Contact</a>
-            <span>Copyright &copy; 2010 DST Solar | All Rights Reserved.</span>
+            <span>Copyright &copy; 2014 DST Solar | All Rights Reserved.</span>
             </p>
         </div>
     </div>
