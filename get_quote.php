@@ -1,0 +1,270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>-::- DST Solar -::-</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" title="DST Solar" />
+<script type="text/javascript" src="jss/swap-images.js"></script>
+<script type="text/javascript" src="jss/menu.js"></script>
+
+<script language="javascript1.2">
+
+function   ValidateForm(){
+
+    myForm = document.getElementById('frmEmail');
+	
+	if(myForm.fname.value == "")
+	{
+		alert("Please type your full name!");
+		myForm.fname.focus()
+		return false;
+	}
+
+	if(myForm.cname.value == "")
+	{
+		alert("Please type your company name!");
+		myForm.cname.focus()
+		return false;
+	}	
+		
+	if(myForm.email.value == "")
+	{
+		alert("Please type your email address!");
+		myForm.email.focus()
+		return false;
+	}
+      if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(myForm.email.value)))
+		{	
+			alert("Invalid Email! Please re-enter.");
+			myForm.email.select();
+			return false;
+		}		
+		
+	if(myForm.phone.value == "")
+	{
+		alert("Please type your phone number!");
+		myForm.phone.focus()
+		return false;
+	}
+	
+	if(myForm.address1.value == "")
+	{
+		alert("Please type your address!");
+		myForm.address1.focus()
+		return false;
+	}
+	
+	if(myForm.city.value == "")
+	{
+		alert("Please type your city!");
+		myForm.city.focus()
+		return false;
+	}
+	
+	if(myForm.state.value == "")
+	{
+		alert("Please select your state!");
+		myForm.state.focus()
+		return false;
+	}
+	
+	if(myForm.zip.value == "")
+	{
+		alert("Please type your zip code!");
+		myForm.zip.focus()
+		return false;
+	}				
+//myForm.submit();
+}	
+</script>
+</head>
+
+<body onload="MM_preloadImages('images/home_hover.jpg','images/about_hover.jpg','images/products_hover.jpg','images/capabilities_hover.jpg','images/faqs_hover.jpg','images/support_hover.jpg','images/contact_hover.jpg','images/product_btn_hover.jpg','images/technology_btn_active.jpg','images/news_btn_active.jpg')">
+	<div id="container">
+    	<div id="inner">
+        	<div id="header">
+            <div id="logo">
+                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://active.macromedia.com/flash5/cabs/swflash.cab#version=5,0,0,0" width="183" height="147">
+                    <param name="MOVIE" value="flash/logo.swf">
+                    <param name="PLAY" value="true">
+                    <param name="LOOP" value="true">
+                    <param name="WMODE" value="opaque">
+                    <param name="QUALITY" value="high">
+                    <embed src="flash/logo.swf" play="true" loop="true" wmode="opaque" quality="high" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" width="183" height="147">
+              </object>
+            </div>
+            <div id="link">
+            	<ul>
+            	  <a href="ISO Cert.pdf" target="_blank"><img src="images/bg_top copy.png" width="457" height="55" align="right"/></a>
+            	</ul>
+            </div>
+            <div id="topNav">
+            	<ul>
+                	<li><a href="index.html"><img src="images/home.jpg" alt="" id="Image1" onmouseover="MM_swapImage('Image1','','images/home_hover.jpg',1)" onmouseout="MM_swapImgRestore()" /></a></li>
+                    <li><a href="about.html" onmouseover="mopen('m1')" onmouseout="mclosetime()"><img src="images/about.jpg" alt="" id="Image2" onmouseover="MM_swapImage('Image2','','images/about_hover.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+                    	<div style="position:relative;">
+                        <div id="m1" onmouseover="mcancelclosetime(), MM_swapImage('Image2','','images/about_hover.jpg',1)" onmouseout="mclosetime(),MM_swapImgRestore()">
+                        	<a href="partners.html">Partners</a>
+                            <a href="quality.pdf" target="_blank">Quality Policy</a>
+                        </div>
+                        </div>
+                    </li>
+                    <li><a href="products.html" onmouseover="mopen('m2')" onmouseout="mclosetime()"><img src="images/products.jpg" alt="" id="Image3" onmouseover="MM_swapImage('Image3','','images/products_hover.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+                    	<div style="position:relative;">
+                        <div id="m2" onmouseover="mcancelclosetime(), MM_swapImage('Image3','','images/products_hover.jpg',1)" onmouseout="mclosetime(),MM_swapImgRestore()">
+                        	<a href="Solar-Standard-and-Smart-Combiners.html">Solar Standard &amp; Smart Combiners</a>
+                            <a href="Solar-Standard-and-Smart-Re-Combiners.html">Solar Standard &amp; Smart Re-Combiners</a>
+                            <a href="Solar-Monitoring-and-Tracking.html">Solar Monitoring &amp; Tracking</a>
+                        </div>
+                        </div>
+                    </li>
+                    <li><a href="capabilities.html"><img src="images/capabilities.jpg" alt="" id="Image4" onmouseover="MM_swapImage('Image4','','images/capabilities_hover.jpg',1)" onmouseout="MM_swapImgRestore()" /></a></li>
+                    <li><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()"><img src="images/faqs.jpg" alt="" id="Image5" onmouseover="MM_swapImage('Image5','','images/faqs_hover.jpg',1)" onmouseout="MM_swapImgRestore()" /></a>
+                    	<div style="position:relative;">
+                        <div id="m3" onmouseover="mcancelclosetime(), MM_swapImage('Image5','','images/faqs_hover.jpg',1)" onmouseout="mclosetime(),MM_swapImgRestore()">
+                        	<a href="faq.html">FAQ – Combiner Box</a>
+                        </div>
+                        </div>
+                    </li>
+                    <li><a href="support.html"><img src="images/support.jpg" alt="" id="Image6" onmouseover="MM_swapImage('Image6','','images/support_hover.jpg',1)" onmouseout="MM_swapImgRestore()" /></a></li>
+                    <li><a href="contact.html"><img src="images/contact.jpg" alt="" id="Image7" onmouseover="MM_swapImage('Image7','','images/contact_hover.jpg',1)" onmouseout="MM_swapImgRestore()" /></a></li>
+                </ul>
+            </div>
+          </div>
+          <div id="inner3">
+            <div id="innerBanner">
+            	<img src="images/inner_page_banner.jpg" alt="" />
+            </div>
+			 <form name="frmEmail" id="frmEmail" method="post" action="Combiner-Box-Configuration-Form.php" onSubmit="javascript:return ValidateForm();" > 
+            <div id="innerColmLeft2">
+            	<h1><span>Get</span> Quote</h1>                                            
+                <div class="contactUs">
+                	<div>
+                    	<span>&nbsp;</span>
+                        <p><font>* Required</font></p>
+                    </div>
+                    <div>
+                    	<span>Full Name:</span>
+                        <p><input name="fname" type="text" class="textField" id="fname" /> 
+                        <font>*</font></p>
+                    </div>
+                    <div>
+                    	<span>Company Name:</span>
+                        <p><input name="cname" type="text" class="textField" id="cname" />
+                        <font>*</font></p>
+                    </div>
+                    <div>
+                    	<span>Title:</span>
+                        <p><input name="title" type="text" class="textField" id="title" />
+                        </p>
+                    </div>
+                    <div>
+                    	<span>Email Address:</span>
+                        <p><input name="email" type="text" class="textField" id="email" /> 
+                        <font>*</font></p>
+                    </div>
+                    <div>
+                    	<span>Phone Number:</span>
+                        <p><input name="phone" type="text" class="textField" id="phone" style="width:170px;" /> 
+                        <font>*</font></p>
+                    </div>
+                    <div>
+                    	<span>Address 1:</span>
+                        <p><input name="address1" type="text" class="textField" id="address1" /> 
+                        <font>*</font></p>
+                    </div>
+                    <div>
+                    	<span>Address 2:</span>
+                        <p><input name="address2" type="text" class="textField" id="address2" />
+                        </p>
+                    </div>
+                    <div>
+                    	<span>City:</span>
+                        <p><input name="city" type="text" class="textField" id="city" /> 
+                        <font>*</font></p>
+                    </div>
+                    <div>
+                    	<span>State:</span>
+                        <p> 
+                        <select name="state" class="textField" id="state"> 
+                            <option value="" selected="selected">Select a State</option> 
+                            <option value="AL">Alabama</option> 
+                            <option value="AK">Alaska</option> 
+                            <option value="AZ">Arizona</option> 
+                            <option value="AR">Arkansas</option> 
+                            <option value="CA">California</option> 
+                            <option value="CO">Colorado</option> 
+                            <option value="CT">Connecticut</option> 
+                            <option value="DE">Delaware</option> 
+                            <option value="DC">District Of Columbia</option> 
+                            <option value="FL">Florida</option> 
+                            <option value="GA">Georgia</option> 
+                            <option value="HI">Hawaii</option> 
+                            <option value="ID">Idaho</option> 
+                            <option value="IL">Illinois</option> 
+                            <option value="IN">Indiana</option> 
+                            <option value="IA">Iowa</option> 
+                            <option value="KS">Kansas</option> 
+                            <option value="KY">Kentucky</option> 
+                            <option value="LA">Louisiana</option> 
+                            <option value="ME">Maine</option> 
+                            <option value="MD">Maryland</option> 
+                            <option value="MA">Massachusetts</option> 
+                            <option value="MI">Michigan</option> 
+                            <option value="MN">Minnesota</option> 
+                            <option value="MS">Mississippi</option> 
+                            <option value="MO">Missouri</option> 
+                            <option value="MT">Montana</option> 
+                            <option value="NE">Nebraska</option> 
+                            <option value="NV">Nevada</option> 
+                            <option value="NH">New Hampshire</option> 
+                            <option value="NJ">New Jersey</option> 
+                            <option value="NM">New Mexico</option> 
+                            <option value="NY">New York</option> 
+                            <option value="NC">North Carolina</option> 
+                            <option value="ND">North Dakota</option> 
+                            <option value="OH">Ohio</option> 
+                            <option value="OK">Oklahoma</option> 
+                            <option value="OR">Oregon</option> 
+                            <option value="PA">Pennsylvania</option> 
+                            <option value="RI">Rhode Island</option> 
+                            <option value="SC">South Carolina</option> 
+                            <option value="SD">South Dakota</option> 
+                            <option value="TN">Tennessee</option> 
+                            <option value="TX">Texas</option> 
+                            <option value="UT">Utah</option> 
+                            <option value="VT">Vermont</option> 
+                            <option value="VA">Virginia</option> 
+                            <option value="WA">Washington</option> 
+                            <option value="WV">West Virginia</option> 
+                            <option value="WI">Wisconsin</option> 
+                            <option value="WY">Wyoming</option>
+                        </select>
+                        <font>*</font></p>
+                    </div>
+                    <div>
+                    	<span>Zip:</span>
+                        <p><input name="zip" type="text" class="textField" id="zip" style="width:100px;" maxlength="5" /> 
+                        <font>*</font></p>
+                    </div>
+                    <div>
+                    	<span>&nbsp;</span>
+                        <p><input type="image" src="images/continue_to_configure_your_product.jpg" alt="" /></p>
+                    </div>    
+                </div>                
+            </div>
+            </form>
+			<div id="innerColmRight">
+            	<img src="images/right_box_top.jpg" alt="" border="0" usemap="#Map" /> 
+            </div>                        
+          </div>
+        </div>
+        
+        <div id="footer">
+        	<p><a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="products.html">Products</a> | <a href="capabilities.html">Capabilities</a> | <a href="faq.html">FAQs</a> | <a href="support.html">Support</a> | <a href="contact.html">Contact</a>
+            <span>Copyright &copy; 2010 DST Solar | All Rights Reserved.</span>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
